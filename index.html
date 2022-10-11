@@ -5,35 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
-    <link rel="stylesheet" href="css/style.css">
+
+    <!-- arquivo de estilo -->
+    <link rel="stylesheet" href="/css/style.css">
+
 </head>
 <body>
+    <!-- inicio da seção header -->
+
     <header>
-        <h1>Portifolio</h1>
-        <menu>
+        <div class="usuario">
+            <img src="imagens/logo.jpg" alt="">
+            <h3 class="name">Jorge Lucas</h3>
+            <p class="poster">Desenvolvedor Full Stack</p>
+        </div>
+
+        <nav class="navbar">
             <ul>
-                <li><a href="#" target="_blank">Home</a></li>
-                <li><a href="#" target="_blank">Projetos</a></li>
-                <li><a href="/html/contatos.html" target="_blank">Contatos</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#educacao">Educação</a></li>
+                <li><a href="#portifolio">Portifólio</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
-        </menu>
+        </nav>
+
     </header>
-    <main>
-        <article>
-            <div>
-                <p>Este portifolio destina-se a mostrar as habilidades adiquiridas ao longo dos estudos.</p>
-            </div>
-            <div>
-                <p>Destina-se também a incentivar quem está começando e procura alguns exemplos.</p>
-            </div>
-            <div>
-                <p>E acompanhar meu desenvolvimento Profissional e Pessoal.</p>
-            </div>
-        </article>
-    </main>
-    <footer>
-        <p><a href="https://github.com/JorgeLucasPinheiro" target="_blank"><strong>Criador</strong></a></p>
-    </footer>
-    <script src="js/script.js"></script>
+
+    <!-- final da seção header -->
+
+    <div id="menu"  class="fas fa-bars"></div>
+
+    <!-- inicio da seção home -->
+
+    <section class="home"   id="home">
+
+        <h3>Olá !</h3>
+        <h1>Meu nome é <span>Jorge Lucas Pinheiro</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit blanditiis est accusantium consequatur, magnam reprehenderit dolorem ducimus. Nemo eius ipsum iure eligendi, modi molestias sint, officiis nam aut explicabo temporibus?</p>
+        <a href="#sobre"><button class="btn">Sobre Mim <i class="fas fa-user"></i></button></a>
+    </section>
 </body>
 </html>
