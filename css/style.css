@@ -172,6 +172,7 @@ header .navbar ul li a:hover{
     font-size: 2rem;
     color: #eee;
     padding: 1rem 0;
+    text-transform: none;
 }
 
 .sobre .linha{
@@ -360,6 +361,12 @@ header .navbar ul li a:hover{
 .contato .linha .conteudo .info h3 i{
     padding-right: 1rem;
     color: var(--blue);
+    text-transform: none;
+}
+
+.contato .linha .conteudo .info .none{
+    text-decoration: none;
+    color: #eee;
 }
 
 .top{
